@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+	"http://struts.apache.org/dtds/struts-2.1.dtd">
+
+<struts>
+	<package name="registration" extends="struts-default">
+
+		<action name="user" class="com.bjsxt.registration.action.UserAction">
+
+			<result name="success">/registerSuccess.jsp</result>
+			<result name="fail">/registerFail.jsp</result>
+			<result name="list">/userlist.jsp</result>
+
+		</action>
+	</package>
+
+
+</struts>
+	
